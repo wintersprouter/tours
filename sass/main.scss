@@ -1,3 +1,16 @@
+@import "abstracts/_functions";
+@import "abstracts/_mixins";
+@import "abstracts/_variables";
+
+@import "base/base";
+@import "base/animations";
+@import "base/typograhy";
+@import "base/utilities";
+
+@import "pages/utilities";
+
+
+
 $color-primary:#55c57a;
 $color-primary-light:#7ed56f;
 $color-primary-dark:#28b485;
@@ -180,7 +193,7 @@ body {
     z-index: -1;
     transition: all .4s;
   }
-  
+
   &--animated {
     animation: moveInBottom .5s ease-out .75s;
     animation-fill-mode: backwards;
